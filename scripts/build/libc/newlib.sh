@@ -65,6 +65,8 @@ REENT_SMALL:newlib-reent-small
 MULTITHREAD:newlib-multithread
 RETARGETABLE_LOCKING:newlib-retargetable-locking
 WIDE_ORIENT:newlib-wide-orient
+FSEEK_OPTIMIZATION:newlib-fseek-optimization
+FVWRITE_IN_STREAMIO:newlib-fvwrite-in-streamio
 UNBUF_STREAM_OPT:newlib-unbuf-stream-opt
 ENABLE_TARGET_OPTSPACE:target-optspace
     "
