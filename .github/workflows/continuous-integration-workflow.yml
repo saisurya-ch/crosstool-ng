@@ -53,6 +53,7 @@ jobs:
     needs: crosstool
     runs-on: ${{ matrix.host }}
     strategy:
+      fail-fast: false
       matrix:
         host: [
           "ubuntu-latest",
